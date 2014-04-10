@@ -1,3 +1,4 @@
+{{ define "indexPage" }}
 <!doctype html>
 <html>
 <head>
@@ -45,5 +46,7 @@
       <p>Designed by <a href='http://github.com/resir014'>resir014</a></p>
     </div>
   </footer>
+  {{ template "analytics" }}
 </body>
 </html>
+{{ end }}

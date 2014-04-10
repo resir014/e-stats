@@ -38,12 +38,12 @@ func createIndexHandler() func(http.ResponseWriter){
 }
 
 func createRenderer() func(http.ResponseWriter, []Record){
-        templ, err := template.ParseFiles("templates/index.tpl")
+        templ, err := template.ParseGlob("templates/*.tpl")
         if err != nil {
                 panic(err)
         }
 
         return func(w http.ResponseWriter, rec []Record) {
-                templ.Execute(w, rec)
+                templ.ExecuteTemplate(w,"indexPage",  rec)
         }
 }
