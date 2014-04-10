@@ -1,0 +1,150 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * Grid System
+ */
+
+.container {
+  padding: 0 1em;
+  margin: 0 auto;
+  max-width: 48em;
+}
+
+/* Additional CLearfix */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/**
+ * Typography
+ *
+ * Base typography structures.
+ */
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+  color: #222222;
+  background-color: #ffffff;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.1;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #428bca;
+  text-decoration: underline;
+}
+
+/**
+ * Tables
+ */
+
+table {
+  background-color: transparent;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+thead {
+  font-weight: 700;
+  border-top: 0;
+}
+
+td {
+  padding: 8px;
+  line-height: 1.7;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+th {
+  text-align: left;
+  padding: 8px;
+  line-height: 1.7;
+  vertical-align: top;
+}
+
+/**
+ * Header
+ */
+
+header {
+  text-align: center;
+  margin: 25px 0;
+}
+
+/**
+ * Footer
+ */
+
+footer {
+  margin-top: 20px;
+}
+
+footer .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #eee;
+}
