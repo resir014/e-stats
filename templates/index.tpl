@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PPA Stats</title>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic">
 </head>
 <body>
@@ -41,7 +41,8 @@
   
   <footer>
     <div class="container">
-      <p>here be footer - feel free to add something here.</p>
+      <p>Made by <a href='http://github.com/voldyman'>Akshay Shekher</a></p>
+      <p>Designed by <a href='http://github.com/resir014'>resir014</a></p>
     </div>
   </footer>
 </body>
