@@ -140,11 +140,16 @@ header {
  */
 
 footer {
-  margin-top: 20px;
+  margin-top: 40px;
+  text-align: center;
 }
 
 footer .container {
   padding-top: 20px;
   padding-bottom: 20px;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  margin: 0;
 }
